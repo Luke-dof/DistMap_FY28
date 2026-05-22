@@ -187,10 +187,10 @@ map
 '
 
 # Save the Quarto document
-writeLines(qmd_content, "DistMap_Block_SecVol.qmd")
+writeLines(qmd_content, "index.qmd")
 
 # Render to HTML
 quarto::quarto_render(
-  input = "DistMap_Block_SecVol.qmd",
+  input = "index.qmd",
   output_format = "html"
 )
